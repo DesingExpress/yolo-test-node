@@ -1,0 +1,51 @@
+{
+  "name": "@euntae90/yolov8-nxv",
+  "version": "1.0.0",
+  "description": "Object Detection using YOLOv8 and Tensorflow.js",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@design-express/node-scripts": "^1.0.7",
+    "@mui/material": "^5.14.5",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@tensorflow/tfjs": "^4.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.11",
+    "web3.storage": "^4.5.5"
+  },
+  "scripts": {
+    "start": "node-scripts start",
+    "build": "node-scripts build",
+    "pack": "node-scripts pack",
+    "publish": "node-scripts publish",
+    "docs": "node-scripts docs",
+    "setuser": "node-scripts setUser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hurima90-kim",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "pre_release": false,
+  "readme": "README.md",
+  "sandbox": false,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "euntae90/yolov8-nxv",
+  "xnodeVersion": "1.0.0",
+  "rootPath": "build",
+  "files": {
+    "nodes/app.js": "build/nodes/c43a0a4d20921916c5c2.js",
+    "nodes/webStorage.js": "build/nodes/a12d708fceff9a09f9f7.js",
+    "runtime.js": "build/runtime.js",
+    "chunks/501ad2d3cf58015b83f7.js": "build/chunks/501ad2d3cf58015b83f7.js",
+    "assets/group1-shard1of4.bin?url": "build/assets/1412fa269cd7771ac809.bin",
+    "assets/group1-shard2of4.bin?url": "build/assets/3b13946e3aa40260c1cb.bin",
+    "assets/group1-shard3of4.bin?url": "build/assets/41b5f358617e82958afa.bin",
+    "assets/model.json?url": "build/assets/96b38b90d1b758494128.json",
+    "assets/group1-shard4of4.bin?url": "build/assets/9180c719b3806d20bf86.bin",
+    "stats.json": "build/stats.json"
+  },
+  "fileMap": {
+    "167": "build/nodes/a12d708fceff9a09f9f7.js",
+    "470": "build/nodes/c43a0a4d20921916c5c2.js",
+    "666": "build/runtime.js",
+    "977": "build/chunks/501ad2d3cf58015b83f7.js"
+  },
+  "entrypoints": [
+    [
+      "nodes/app",
+      [
+        977
+      ],
+      [],
+      470
+    ],
+    [
+      "nodes/webStorage",
+      [],
+      [],
+      167
+    ]
+  ]
+}
